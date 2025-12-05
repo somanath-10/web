@@ -1,0 +1,32 @@
+h1{
+    text-shadow: 3px 3px 5px red;
+    text-shadow: 3px 3px 5px red,5px 3px 5px green;
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: aqua;
+    box-shadow: -5px 0px 3px red;
+    color: red;
+}
+p{
+    max-height: 200px;
+    max-width: auto;
+    border: 1px solid black;
+    overflow: scroll;
+    margin: 10px;
+}
+.id{
+    margin: 10px;
+    border: 1px solid black;
+    min-height: 100px;
+}
+#id{
+    background-color: aqua;
+    transform: translate(100px,0px);
+    margin: 200px;
+    /* transform: scale(2,3); */
+    transform: skew(45deg);
+}
